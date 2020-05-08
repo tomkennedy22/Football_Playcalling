@@ -49,13 +49,13 @@ def combine_json(Grouping='Year'):
                                                 MasterData[Period][Down][YardsToGo][BallSpot][Lead][TimeLeft][PlayType] +=1
 
 
-                    #1  Period
-                    #2  Down
-                    #3  YardsToGo
-                    #4  BallSpot
-                    #5  Lead
-                    #6  TimeLeft
-                    #7  PlayType
+#1  Period
+#2  Down
+#3  YardsToGo
+#4  BallSpot
+#5  Lead
+#6  TimeLeft
+#7  PlayType
 
             with open('output/PlayTypeCounts-Year-'+str(Year)+'.json', 'w') as outfile:
                 json.dump(MasterData, outfile)
