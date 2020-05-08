@@ -1,5 +1,5 @@
 # Football Playcalling
-Method for scraping and analyzing pro football paycalling choices by game situation.
+Method for scraping and analyzing pro football playcalling choices by game situation.
 
 
 ## Results
